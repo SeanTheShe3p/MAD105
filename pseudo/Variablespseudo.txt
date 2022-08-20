@@ -1,0 +1,26 @@
+Variables:
+myByte
+myShort
+myInt
+myLong
+myFloat
+myDouble
+myBoolean
+myChar
+Process:
+var myByte = 107
+var myShort = 30,000
+var myInt = 16
+var myLong = 80,000,000
+var myFloat = 3.14F
+var myDouble = 160,000,000
+var myBoolean = false
+myBoolean = myDouble<myLong&&myShort>myInt
+myChar = a
+println myBoolean
+println myByte
+println myShort
+println myInt
+println myLong
+println myFloat
+println myDouble
