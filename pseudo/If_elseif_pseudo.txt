@@ -1,0 +1,17 @@
+Variables:
+reg_temp // 98.5 kotlin doesnt compare different types of variables
+user_temp // 0.0
+temp_dif //0.0
+Process:
+reg_temp = 98.5
+user_temp = 0.0
+while user_temp >= 97.5 and user_temp <= 99.5
+	println "Please enter the patients temperature"
+	user_temp = readln()!!.toFloat()
+	temp_dif = user_temp - reg_temp
+	if temp_dif <= 1 && temp_dif >= -1
+		println "this is a healthy temperature"
+	else if temp_dif > 1
+		println "hace calor!"
+	else if temp_dif < 1
+		println "hace frio!"
