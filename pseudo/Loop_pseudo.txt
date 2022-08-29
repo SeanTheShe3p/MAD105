@@ -1,0 +1,33 @@
+Variables:
+choice = 0
+Process:
+do 
+	println 1. Turtwig
+	println 2. Piplup
+	println 3. Chimpchar
+	println 4. Shinx
+	println 5. Riolu
+	println 6. quit emulation
+
+	print "enter user choice"
+	choice = readln!!.toInt
+	if choice = 1
+		println "You have chosen Turtwig as your starter pokemon! congratulations!
+		choice = 6
+	elif choice = 2
+		println "You have chosen Piplup as your starter pokemon! congratulations!
+		choice = 6
+	elif choice = 3
+		println "You have chosen Chimpchar as your starter pokemon! congratulations!
+		choice = 6
+	elif choice = 4
+		println "You have chosen Shinx as your starter pokemon! congratulations!
+		choice = 6
+	elif choice = 5
+		println "You have chosen Riolu as your starter pokemon! congratulations!
+		choice = 6
+	else
+		println "you have selected an ivalid entry, try again."
+		choice = 0
+ while choice != 6
+		
