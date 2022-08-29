@@ -1,0 +1,75 @@
+Variables:
+
+run = 0
+repeat = 0
+userOpt// rerun
+Hot dog stand supplies //Array of stand supplies
+Supply Qty //Array of Supply amounts
+combArray //2d Array for supplies and amounts
+searchValue
+results// for compareTo
+oldValue = 0 
+newValue = 0
+listLength//range in loops
+row// incriment for loops
+addSubtract//for math
+changeValue//for math
+
+Process:
+
+var hotDog arrayOf (buns hotdogs ketchup mustard mayonnaise relish onion celerysalt sports napkins)
+var Quantity arrayOf (100 100 1000 1000 250 250 1000000 250 10000)
+var combArray arrayOf<Array<String>>()
+combArray+= hotDog
+combArray+=Quantity
+listLength = combArray[0].size()-1
+
+while(run != 1)///////////
+	while(repeat !=1)
+
+		for(row in 0..listLength){
+			println(you have + (combArray[1][row]) + units of + (combArray[0][row]))
+
+		print(would you like to query a specific item? enter 0 to quit)
+		searchValue = readline()!!.toString()
+
+		if (searchValue != 0){
+			for(row in 0..listLength){
+			results= combArray[0][row].compareTo(searchValue, ignoreCase=true)
+			if(results==0){
+				println()
+				print("you searched + (searchValue) + , the current quantity on hand is + (combArray[1][row], enter 0 to subtract enter 1 to add))
+				addSubtract=readln()!!.toInt()
+
+				if(addSubtract= 0){
+					print(how many would you like to subtract?)
+					changeValue= readln()!!.toInt()
+					oldValue= combArray[1][row].toInt()
+					newValue= oldValue-changeValue
+						if(newValue<=0){
+							println(Error: That brings your quantity for + (combArray[0][row]) + below zero, order more!)
+							newValue=0
+							newValue.toString()
+							combArray[1][row] = newValue
+						}else{
+					
+							newValue.toString()
+							combArray[1][row] = newValue}
+				}else if(addSubtract = 1){
+					print(how many would you like to add?)
+					changeValue= readln()!!.toInt()
+					oldValue= combArray[1][row].toInt()
+					newValue= oldValue+changeValue
+					newValue.toString()
+					combArray[1][row] = newValue
+				}else{
+					println(that was not a valid answer)}
+
+		}else{
+			repeat=1}
+
+println()
+print("quit and wipe data? enter 0 to quit enter 1 to restart")
+userOpt = readln()!!.toInt()
+if(userOpt==0){
+	run=1}
