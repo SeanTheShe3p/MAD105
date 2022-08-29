@@ -1,0 +1,5 @@
+Variables:
+Hot dog stand supplies //Array of stand supplies
+Process:
+for item in hot dog supplies 
+	println item
