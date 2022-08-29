@@ -27,7 +27,7 @@ fun main(args: Array<String>){
                     results = combArray[0][r].compareTo(searchValue, ignoreCase = true)
                     if (results == 0) {
                         println()
-                        print("you searched " + searchValue + " , the current quantity on hand is " + combArray[1][r] + ". enter 0 to subtract, enter 1 to add.")
+                        print("you searched " + searchValue + ", the current quantity on hand is " + combArray[1][r] + ". enter 0 to subtract, enter 1 to add.")
                         addSubtract = readln()!!.toInt()
                         if (addSubtract == 0) {
                             print("how many would you like to subtract?")

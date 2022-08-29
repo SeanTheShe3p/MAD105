@@ -4,9 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="7bce2c84-422d-47fd-a72c-8171309005a2" name="Changes" comment="//upload&#10;Arrays.kt">
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/AdvancedArrays.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    <list default="true" id="7bce2c84-422d-47fd-a72c-8171309005a2" name="Changes" comment="//upload&#10;AdvancedArrays.kt">
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/AdvancedArrays.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/AdvancedArrays.kt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -103,7 +102,7 @@
       <workItem from="1660965743171" duration="476000" />
       <workItem from="1660966497426" duration="508000" />
       <workItem from="1661219348969" duration="234000" />
-      <workItem from="1661665044361" duration="15847000" />
+      <workItem from="1661665044361" duration="16026000" />
     </task>
     <task id="LOCAL-00001" summary="//upload&#10; //If_Else.kt&#10; //Operators.kt&#10; //Variables.kt">
       <created>1660966784260</created>
@@ -140,7 +139,14 @@
       <option name="project" value="LOCAL" />
       <updated>1661805508532</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="//upload&#10;AdvancedArrays.kt">
+      <created>1661813658878</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1661813658878</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -163,6 +169,7 @@
     <MESSAGE value="//upload&#10;When.kt" />
     <MESSAGE value="//upload&#10;StringsQuiz.kt" />
     <MESSAGE value="//upload&#10;Arrays.kt" />
-    <option name="LAST_COMMIT_MESSAGE" value="//upload&#10;Arrays.kt" />
+    <MESSAGE value="//upload&#10;AdvancedArrays.kt" />
+    <option name="LAST_COMMIT_MESSAGE" value="//upload&#10;AdvancedArrays.kt" />
   </component>
 </project>
