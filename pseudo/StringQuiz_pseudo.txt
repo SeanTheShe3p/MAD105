@@ -1,0 +1,59 @@
+Variables:
+counter = 0
+result // for compareTo
+userAns = 'token'
+ans1 = 'true'
+ans2 = 'false'
+ans3 = 'true'
+ans4 = 'false'
+ans5 = 'true'
+snappleFacts1 = "#1510: There are more trees on earth than stars in the milky way"
+snappleFacts2 = "#1600: The longest alphabet has 74 letters"
+snappleFacts3 = "#845: A lemon contains more sugar than a strawberry"
+snappleFacts4 = "#1321: Alaska is the only state that can be typed on one row of keys"
+snappleFacts5 = "#1324: In South Korea, a baby is considered 1 year old at birth"
+Process:
+Println thank you for participating in the fun snapple quiz
+println all answers are in true/false format
+println lets see if you know your jucie!
+print Question 1: Although mystical, there are less stars in the milky way than there are trees on earth.
+userAns = readln()!!.toString()
+result = ans1.compareTo(userAns, ignoreCase:true)
+if (result == 0){
+	println Yes, thats correct! $snappleFacts1.
+	counter++
+}else{
+	println No, $snappleFacts1.}
+print Question 2: The english alphabet is the longest alphabet at 26 letters.
+userAns = readln()!!.toString()
+result = ans1.compareTo(userAns, ignoreCase:true)
+if (result == 0){
+	println Yes, thats correct! $snappleFacts2.
+	counter++
+}else{
+	println No, $snappleFacts2.}
+print Question 3: Contrary to popular belief, the strawberry has less sugar than a lemon.
+userAns = readln()!!.toString()
+result = ans1.compareTo(userAns, ignoreCase:true)
+if (result == 0){
+	println Yes, thats correct! $snappleFacts3.
+	counter++
+}else{
+	println No, $snappleFacts3.}
+print Question 4: There are only 2 states that can be typed on a single keyboard row.
+userAns = readln()!!.toString()
+result = ans1.compareTo(userAns, ignoreCase:true)
+if (result == 0){
+	println Yes, thats correct! $snappleFacts4.
+	counter++
+}else{
+	println No, $snappleFacts4.}
+print Question 5: One year from your birthdate in America would make you 2 years old in South Korea.
+userAns = readln()!!.toString()
+result = ans1.compareTo(userAns, ignoreCase:true)
+if (result == 0){
+	println Yes, thats correct! $snappleFacts5.
+	counter++
+}else{
+	println No, $snappleFacts5.}
+
