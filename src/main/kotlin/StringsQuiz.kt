@@ -69,7 +69,7 @@ fun main(args: Array<String>){
 
     print("Question 5: One year from your birthdate in America would make you 2 years old in South Korea.")
     userAns = readln()!!.toString()
-    var results5 = ans5.compareTo(userAns, ignoreCase = true)
+    var results5 = ans1.compareTo(userAns, ignoreCase = true)
     if (results5 == 0){
         println()
         println("Yes, that's correct! $snappleFacts5.")
