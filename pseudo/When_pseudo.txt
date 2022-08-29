@@ -1,0 +1,20 @@
+Variables:  https://www.languagesandnumbers.com/ & https://www.translate.com/english-klingon
+number = 0
+foreignString = "token"
+Process:
+print "enter a number 1-10"
+number = readln()!!.toInt()
+when(number) {
+	1-> foreignString = "wa'"
+	2-> foreignString = "cha'"
+	3-> foreignString = "wej"
+	4-> foreignString = "loS"
+	5-> foreignString = "vagh"
+	6-> foreignString = "jav"
+	7-> foreignString = "Soch"
+	8-> foreignString = "chorgh"
+	9-> foreignString = "Hut"
+	10-> foreignString = "wa'maH"
+	!in 1..10 -> foreignString = "Please try again"
+	else -> foreignString = "Hoch DaghajnIS"}
+println("$number is $foreignString in klingon")
