@@ -4,8 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="7bce2c84-422d-47fd-a72c-8171309005a2" name="Changes" comment="//upload&#10;Loops.kt">
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/When.kt" afterDir="false" />
+    <list default="true" id="7bce2c84-422d-47fd-a72c-8171309005a2" name="Changes" comment="//upload&#10;When.kt">
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/StringsQuiz.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -45,9 +45,16 @@
     &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;
   }
 }</component>
-  <component name="RunManager" selected="Kotlin.WhenKt">
+  <component name="RunManager" selected="Kotlin.StringsQuizKt">
     <configuration name="LoopsKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="LoopsKt" />
+      <module name="MAD105" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="StringsQuizKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="StringsQuizKt" />
       <module name="MAD105" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -62,6 +69,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Kotlin.StringsQuizKt" />
         <item itemvalue="Kotlin.WhenKt" />
         <item itemvalue="Kotlin.LoopsKt" />
       </list>
@@ -78,7 +86,7 @@
       <workItem from="1660965743171" duration="476000" />
       <workItem from="1660966497426" duration="508000" />
       <workItem from="1661219348969" duration="234000" />
-      <workItem from="1661665044361" duration="6103000" />
+      <workItem from="1661665044361" duration="8308000" />
     </task>
     <task id="LOCAL-00001" summary="//upload&#10; //If_Else.kt&#10; //Operators.kt&#10; //Variables.kt">
       <created>1660966784260</created>
@@ -94,7 +102,14 @@
       <option name="project" value="LOCAL" />
       <updated>1661794775915</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="//upload&#10;When.kt">
+      <created>1661796646045</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1661796646045</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -114,6 +129,7 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="//upload&#10; //If_Else.kt&#10; //Operators.kt&#10; //Variables.kt" />
     <MESSAGE value="//upload&#10;Loops.kt" />
-    <option name="LAST_COMMIT_MESSAGE" value="//upload&#10;Loops.kt" />
+    <MESSAGE value="//upload&#10;When.kt" />
+    <option name="LAST_COMMIT_MESSAGE" value="//upload&#10;When.kt" />
   </component>
 </project>
