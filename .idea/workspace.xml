@@ -4,8 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="7bce2c84-422d-47fd-a72c-8171309005a2" name="Changes" comment="AdvancedArrays.kt//moved a comma one space">
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/MethodsFunctions.kt" afterDir="false" />
+    <list default="true" id="7bce2c84-422d-47fd-a72c-8171309005a2" name="Changes" comment="MethodsFunctions.kt updated">
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/OverloadedFunctions.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -46,7 +46,7 @@
     &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;
   }
 }</component>
-  <component name="RunManager" selected="Kotlin.MethodsFunctionsKt">
+  <component name="RunManager" selected="Kotlin.OverloadedFunctionsKt">
     <configuration name="AdvancedArraysKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="AdvancedArraysKt" />
       <module name="MAD105" />
@@ -68,6 +68,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="OverloadedFunctionsKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="OverloadedFunctionsKt" />
+      <module name="MAD105" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="StringsQuizKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="StringsQuizKt" />
       <module name="MAD105" />
@@ -75,20 +82,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="WhenKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="WhenKt" />
-      <module name="MAD105" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Kotlin.OverloadedFunctionsKt" />
         <item itemvalue="Kotlin.MethodsFunctionsKt" />
         <item itemvalue="Kotlin.AdvancedArraysKt" />
         <item itemvalue="Kotlin.ArraysKt" />
         <item itemvalue="Kotlin.StringsQuizKt" />
-        <item itemvalue="Kotlin.WhenKt" />
       </list>
     </recent_temporary>
   </component>
@@ -104,7 +104,7 @@
       <workItem from="1660966497426" duration="508000" />
       <workItem from="1661219348969" duration="234000" />
       <workItem from="1661665044361" duration="16247000" />
-      <workItem from="1663013494583" duration="4714000" />
+      <workItem from="1663013494583" duration="6920000" />
     </task>
     <task id="LOCAL-00001" summary="//upload&#10; //If_Else.kt&#10; //Operators.kt&#10; //Variables.kt">
       <created>1660966784260</created>
@@ -155,7 +155,21 @@
       <option name="project" value="LOCAL" />
       <updated>1661813781821</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="MethodsFunctions.kt uploaded">
+      <created>1663029217873</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1663029217873</updated>
+    </task>
+    <task id="LOCAL-00009" summary="MethodsFunctions.kt updated">
+      <created>1663029260218</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1663029260218</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -180,6 +194,8 @@
     <MESSAGE value="//upload&#10;Arrays.kt" />
     <MESSAGE value="//upload&#10;AdvancedArrays.kt" />
     <MESSAGE value="AdvancedArrays.kt//moved a comma one space" />
-    <option name="LAST_COMMIT_MESSAGE" value="AdvancedArrays.kt//moved a comma one space" />
+    <MESSAGE value="MethodsFunctions.kt uploaded" />
+    <MESSAGE value="MethodsFunctions.kt updated" />
+    <option name="LAST_COMMIT_MESSAGE" value="MethodsFunctions.kt updated" />
   </component>
 </project>
