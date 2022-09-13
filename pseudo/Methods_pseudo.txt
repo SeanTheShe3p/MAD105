@@ -1,0 +1,41 @@
+Variables:
+area = 0
+userChoice = 1
+inputs height, width, pi, radius, ab
+Process:
+fun triangleArea
+	return b*h/2
+fun rectangleArea
+	return (a+b)/2 * h
+fun circleArea
+	return p(r*r)
+fun trapezoidArea
+	return (a+b)/2*h
+
+fun main
+	1 triangle
+	2 rectangle
+	3 circle
+	4 trapezoid
+		zero to cancel
+
+	if userChoice == 1
+		enter h
+		enter w
+		"the area is $area"
+	else if userChoice == 2
+		enter a
+		enter b
+		enter h
+		"the area is $area"
+	else if userChoice == 3
+		enter p
+		enter r
+		"the area is $area"
+	else if userChice == 4
+		enter a
+		enter b
+		enter h
+		"the area is $area"
+	else
+		userChoice == 0
