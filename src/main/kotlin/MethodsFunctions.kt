@@ -17,7 +17,7 @@ fun areaTrapezoid(a: Float, b: Float, h: Float): Float{
 
 fun main(){
     var userChoice = 5
-    while (userChoice != 0){e
+    while (userChoice != 0){
         println("1. Triangle")
         println("2. Rectangle")
         println("3. Circle")
