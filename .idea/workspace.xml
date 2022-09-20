@@ -4,8 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="7bce2c84-422d-47fd-a72c-8171309005a2" name="Changes" comment="OverloadedFunctions.kt uploaded">
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/TipCalculator.kt" afterDir="false" />
+    <list default="true" id="7bce2c84-422d-47fd-a72c-8171309005a2" name="Changes" comment="TipCalculator.kt uploaded">
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/WereWolfs.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -46,16 +46,9 @@
     &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;
   }
 }</component>
-  <component name="RunManager" selected="Kotlin.TipCalculatorKt">
+  <component name="RunManager" selected="Kotlin.WereWolfsKt">
     <configuration name="AdvancedArraysKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="AdvancedArraysKt" />
-      <module name="MAD105" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="ArraysKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ArraysKt" />
       <module name="MAD105" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -82,13 +75,20 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="WereWolfsKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="WereWolfsKt" />
+      <module name="MAD105" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Kotlin.WereWolfsKt" />
         <item itemvalue="Kotlin.TipCalculatorKt" />
         <item itemvalue="Kotlin.OverloadedFunctionsKt" />
         <item itemvalue="Kotlin.MethodsFunctionsKt" />
         <item itemvalue="Kotlin.AdvancedArraysKt" />
-        <item itemvalue="Kotlin.ArraysKt" />
       </list>
     </recent_temporary>
   </component>
@@ -104,7 +104,8 @@
       <workItem from="1660966497426" duration="508000" />
       <workItem from="1661219348969" duration="234000" />
       <workItem from="1661665044361" duration="16247000" />
-      <workItem from="1663013494583" duration="10036000" />
+      <workItem from="1663013494583" duration="10659000" />
+      <workItem from="1663602953222" duration="2520000" />
     </task>
     <task id="LOCAL-00001" summary="//upload&#10; //If_Else.kt&#10; //Operators.kt&#10; //Variables.kt">
       <created>1660966784260</created>
@@ -176,7 +177,14 @@
       <option name="project" value="LOCAL" />
       <updated>1663034305819</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="TipCalculator.kt uploaded">
+      <created>1663038571847</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1663038571847</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -204,6 +212,7 @@
     <MESSAGE value="MethodsFunctions.kt uploaded" />
     <MESSAGE value="MethodsFunctions.kt updated" />
     <MESSAGE value="OverloadedFunctions.kt uploaded" />
-    <option name="LAST_COMMIT_MESSAGE" value="OverloadedFunctions.kt uploaded" />
+    <MESSAGE value="TipCalculator.kt uploaded" />
+    <option name="LAST_COMMIT_MESSAGE" value="TipCalculator.kt uploaded" />
   </component>
 </project>
