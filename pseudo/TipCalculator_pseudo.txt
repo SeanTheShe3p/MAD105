@@ -1,0 +1,32 @@
+Variables:
+tax = .025
+taxTotal
+tip = .175
+tipTotal
+itemCost = 0
+totalCost = 0
+subCost = 0
+cost of items
+final format costs
+userChoice = 1
+Process:
+	
+println Tip Calculator
+while userChoice !=0
+	println add item? 1 to add zero to compile total
+	println Enter item cost:
+	itemCost = readln.toFloat
+	subCost = subCost + itemCost
+taxTotal = subCost*tax
+tipTotal = subCost*tip
+totalCost = subCost+tipTotal+taxTotal
+
+dollarFormat = DecimalFormat("\$###,###.00)
+finalSub = dollarFormat.format(subCost)
+finalTax = dollarFormat.format(taxTotal)
+finalTip = dollarFormat.format(tipTotal)
+finalTotal = dollarFormat.format(totalCost)
+
+println
+println "Breakdown"
+println SubTotal: 'finalSub' \n taxTotal: 'finalTax' \n tip: 'finalTip' \n ____________ \n 'finalTotal'

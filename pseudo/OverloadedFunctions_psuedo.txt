@@ -1,0 +1,19 @@
+Variables:
+userChoice
+residential input name,phonenumber
+business input name,contact,phonenumber 
+Process:
+addRes(name,#)
+	return (the resident's info /n name:'name' /n phone:'#')
+addBus(name,contact,#)
+	return (the  business's info /n name:'name' /n contact:'contact' /n phone:'#')
+while userChoice != 0
+	enter residential or buisness
+	if residential
+		input name
+		input phonenumber
+	if business
+		input name
+		input contact
+		input phonenumber
+	println(userinfo)
