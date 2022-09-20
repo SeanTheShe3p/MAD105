@@ -1,0 +1,16 @@
+Variables:
+lastFullMoon - Date of last full moon
+nextFullMoon - Date of Next full moon
+todaysDate - System Date
+daysUntil
+daysSince
+Process:
+var todaysDate = LocalDate.now()
+val dateFormat = DateTimeFormatter.ofPattern("MM/dd/yyy")
+val formattedToday = todaysDate.format(dateFormat)
+println("Today is $formattedToday")
+println("_________________________")
+var daysUntil = (nextFullMoon - todaysDate)
+var daysSince = (todaysDate - lastFullMoon)
+println("there is $daysUntil days until the next full moon")
+println(the last full moon was $daysSince days ago")
